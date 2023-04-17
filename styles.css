@@ -1,0 +1,161 @@
+body {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    gap: 60px;
+}
+
+aside {
+    width: 400px;
+    padding: 32px;
+    display: flex;
+    height: 940px;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+}
+
+aside h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+aside p {
+    font-size: 18px;
+    color: #495057;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.aside-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+
+}
+
+main header {
+    margin-bottom: 80px;
+}
+
+main header img {
+    width: 50px;
+    height: 60px;
+}
+
+.input-principal {
+    max-width: 680px;
+    display: flex;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: space-between;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-principal {
+    width: 680px;
+    max-width: 680px;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #0A3871;
+}
+
+.input-principal::placeholder {
+    color: #0A3871;
+    
+}
+
+.buttons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.buttons-section p {
+    font-size: 14px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 17px;
+    color: #495057;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.buttons button{
+    padding: 24px;
+    border-radius: 24px;
+    width: 328px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn1 {
+    color: white;
+    background-color: #0A3871;
+}
+
+#btn2 {
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+}
+
+.input-lateral, .copy {
+    display: none;
+}
+
+.lateral2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.input-lateral {
+    font-size: 32px;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+}
+
+.copy {
+    color: #0A3871;
+    background-color: white;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    border-radius: 24px;
+    width: 328px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
